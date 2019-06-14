@@ -73,7 +73,7 @@ table {
 }
 
 .nav-header .nav-item{
-    background-color: #444;
+    background-color: #999;
     width: 220.2px;
     height: 171.64px;
     padding: 13.2px;
@@ -81,7 +81,7 @@ table {
 }
 
 .nav-header>div:last-child{
-    background-color: #666;
+    background-color: #888;
     width: 133.75px;
     height: 53.5px;
     margin: 43.3px 0 0;
@@ -91,7 +91,7 @@ table {
 .nav-item .content{
     width: 193.83px;
     height: 145.27px;
-    background: #888;
+    background: #555;
 }
 /* HEADER */
 
@@ -108,7 +108,7 @@ table {
 .col{
     width: 50%;
     display: inline-block;
-    background-color: #444;
+    background-color: #aaa;
     padding: 15.68% 5% 10.97% 5%;
 }
 
@@ -132,16 +132,17 @@ table {
     padding-top: 50px;
     
 }
-.h1-title div{
+.h1-title div:first-child{
     height: 90px;
     width: 315px;
-    background: #888;
+    background: #333;
     margin: auto;
-
 }
+
 .float-button{
+    background: #555;
     position: absolute;
-    top: 50px;
+    top: 60px;
     right: 23px;
     width: 243px;
     height: 60px;
@@ -153,43 +154,86 @@ table {
     padding: 0 10px;
 }
 .col-1-4{
-    background-color: #777;
+    background-color: #999;
     width: 25%;
-    height: 28rem;
+    height: 22rem;
     display: inline-block;
+    margin-left: 35px;
     margin-top: 30px;
+    margin-right: 16px;
+    margin-bottom: 30px;
     
 }
 
 .col-2-4{
     width: 50%;
     height: 28rem;
-    background-color: #777;
+    background-color: #333;
     margin-top: 30px;
+}
+.last-bold>div:last-child{
+    background-color: #ccc;
+}
+.last-bold>div:last-child div{
+    background-color: #444;
+    height: 100px;
+    margin: 20px 20px 0 35px;
+
 }
 
 /* articles separator */
 .articles-separator{
     height: 160px;
-    background: lightgray;
+    padding: 65px 0;
+}
+.articles-separator>div{
+    width: 200px;
+    height: 36px;
+    margin: auto;
+    background-color: #666;
 }
 
 /* coming up next */
 .coming-up-next{
     height: 952px;
-    background: lightgray;
+    
 }
 
 .coming-up-next>div{
-    width: 40%;
-    height: 500px;
     margin: 0 auto;
-    background: rgb(168, 168, 168);
+    background: #ddd;
+    padding-top: 77px;
 }
 
-.coming-up-next>div:last-child{
+.comming-date{
+    height: 20px;
+    width: 270px;
+    background-color: #999;
+    margin: 0 auto 30px auto;
+}
+.comming-title{
+    height: 40px;
+    width: 515px;
+    background-color: #333;
+    margin: 0px auto 25px auto;
+}
+.comming-paragraph{
+    height: 130px;
+    width: 700px;
+    background-color: #888;
+    margin: 0px auto 25px auto;
+}
+.comming-bottom{
     background: #444;
-    width: 35%;
-    height: 120px;
-    margin: 0 auto;
+    width: 405px;
+    height: 60px;
+    background-color: #333;
+    margin: 0px auto 25px auto;
+}
+.comming-image{
+    background: #444;
+    width: 700px;
+    height: 512px;
+    background-color: #777;
+    margin: 0px auto 25px auto;
 }
