@@ -237,3 +237,17 @@ table {
     background-color: #777;
     margin: 0px auto 25px auto;
 }
+
+/* COMUNITY LINKS */
+.comunity>div>div{
+    height: 200px;
+    margin: 40px 20px 20px 30px;
+}
+.comunity>div>div:first-child{
+    background-color: #444;
+}
+.comunity>div>div:last-child{
+    background-color: #999;
+}
+
+/* COMUNITY LINKS */
