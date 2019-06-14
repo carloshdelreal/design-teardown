@@ -194,12 +194,12 @@ table {
 }
 
 /* coming up next */
-.coming-up-next{
+.comming-up-next{
     height: 952px;
     
 }
 
-.coming-up-next>div{
+.comming-up-next>div{
     margin: 0 auto;
     background: #ddd;
     padding-top: 77px;
@@ -239,15 +239,31 @@ table {
 }
 
 /* COMUNITY LINKS */
-.comunity>div>div{
+.community>div>div{
     height: 200px;
     margin: 40px 20px 20px 30px;
 }
-.comunity>div>div:first-child{
+.person-image{
     background-color: #444;
 }
-.comunity>div>div:last-child{
+.community>div>div:last-child, .community .community-rows>div{
     background-color: #999;
 }
 
 /* COMUNITY LINKS */
+
+/* featured book */
+.featured-book{
+    background-color: #777;
+    height: 437px;
+}
+
+/*  */
+
+.col-4-4{
+    width: 100%;
+    height: 977px;
+    background: #555;
+    margin-left: 35px;
+    margin-right: 16px;
+}
