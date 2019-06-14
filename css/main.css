@@ -96,20 +96,24 @@ table {
 /* HEADER */
 
 /* SECTION */
+
 .section{
     clear:both;
 }
+.section{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
 .col{
     width: 50%;
-    height: 444.406px;
     display: inline-block;
     background-color: #444;
-    float:left;
-    padding: 220px 80px 154px 80px;
+    padding: 15.68% 5% 10.97% 5%;
 }
 
 .col div{
-    height: 400px;
+    height: 34.76rem;
     background: #666;
 }
 
@@ -118,12 +122,36 @@ table {
 }
 
 .sm-col div{
-    height: 150px;
+    height: 28rem;
 }
 
 .h1-title{
-    width: 468.938px;
-    height: 92px;
-    margin: 50px 323.562px 0 792.500px;
+    width: 100%;
+    height: 142px;
+    position: absolute;
+    padding-top: 50px;
+    
+}
+.h1-title div{
+    height: 90px;
+    width: 315px;
     background: #888;
+    margin: auto;
+
+}
+.float-button{
+    position: absolute;
+    top: 50px;
+    right: 23px;
+    width: 243px;
+    height: 60px;
+}
+.thirds{
+    display: flex;
+}
+.third{
+    background-color: #777;
+    width: 33.33%;
+    height: 28rem;
+    display: inline-block;
 }
