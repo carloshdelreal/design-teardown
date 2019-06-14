@@ -146,12 +146,50 @@ table {
     width: 243px;
     height: 60px;
 }
-.thirds{
+
+/* latest posts */
+.row{
     display: flex;
+    padding: 0 10px;
 }
-.third{
+.col-1-4{
     background-color: #777;
-    width: 33.33%;
+    width: 25%;
     height: 28rem;
     display: inline-block;
+    margin-top: 30px;
+    
+}
+
+.col-2-4{
+    width: 50%;
+    height: 28rem;
+    background-color: #777;
+    margin-top: 30px;
+}
+
+/* articles separator */
+.articles-separator{
+    height: 160px;
+    background: lightgray;
+}
+
+/* coming up next */
+.coming-up-next{
+    height: 952px;
+    background: lightgray;
+}
+
+.coming-up-next>div{
+    width: 40%;
+    height: 500px;
+    margin: 0 auto;
+    background: rgb(168, 168, 168);
+}
+
+.coming-up-next>div:last-child{
+    background: #444;
+    width: 35%;
+    height: 120px;
+    margin: 0 auto;
 }
