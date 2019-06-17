@@ -93,23 +93,44 @@ table {
     height: 145.27px;
     background: #555;
 }
+.content h3{
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 70px 0 0px 0;
+}
+.content p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
 /* HEADER */
 
 /* SECTION */
 
 .section{
-    clear:both;
-}
-.section{
     position: relative;
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
 .col{
     width: 50%;
     display: inline-block;
     background-color: #aaa;
     padding: 15.68% 5% 10.97% 5%;
+}
+.col h3{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 150px 0px 0px 38px;
+    font-weight: 900;
+    line-height: 1.4;
 }
 
 .col div{
@@ -132,6 +153,14 @@ table {
     padding-top: 50px;
     
 }
+.h1-title h3{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 17px 0 0px 0;
+    font-weight: 700;
+}
+
 .h1-title div:first-child{
     height: 90px;
     width: 315px;
@@ -163,6 +192,20 @@ table {
     margin-right: 16px;
     margin-bottom: 30px;
     
+}
+.col-1-4 h3{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 70px 0 0px 0;
+    font-weight: 600;
+}
+.col-1-4 p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    line-height: 1.5;
 }
 
 .col-2-4{
