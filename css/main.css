@@ -181,6 +181,7 @@ table {
 
 }
 
+
 /* articles separator */
 .articles-separator{
     height: 160px;
@@ -241,16 +242,60 @@ table {
 /* COMUNITY LINKS */
 .community>div>div{
     height: 200px;
-    margin: 40px 20px 20px 30px;
+    margin: 40px 2px 20px 0px;
 }
 .person-image{
     background-color: #444;
 }
 .community>div>div:last-child, .community .community-rows>div{
-    background-color: #999;
+    background-color: #eee;
 }
 
 /* COMUNITY LINKS */
+/* COMUNITY ROWS */
+.community-rows{
+    margin: 0 30px 0 25px;
+}
+.community-rows>div>div:first-child{
+    width: 10%;
+    height: 150px;
+    display: inline-block;
+    margin: 25px 0px 0px 25px;
+}
+.community-thumb{
+    background-color: #888;
+    width:50px;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+}
+.community-rows>div>div:last-child{
+    width: 80%;
+    height: 150px;
+    display: inline-block;
+}
+
+.community-rows>div>div:last-child div:first-child{
+    width: 35%;
+    height: 16px;
+    background-color: #ddd;
+}
+
+.community-rows>div>div:last-child div:nth-child(2){
+    width: 75%;
+    height: 25px;
+    background-color: #999;
+    margin: 19px 0px 0px 0px;
+}
+
+.community-rows>div>div:last-child div:nth-child(3){
+    width: 99%;
+    height: 69px;
+    background-color: #ccc;
+    margin: 19px 0px 0px 0px;
+}
+
+
+/* COMUNITY ROWS */
 
 /* featured book */
 .featured-book{
