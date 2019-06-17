@@ -11,6 +11,7 @@ For achieving this results it was used:
 
 this project was achived thanks to 
 
+* Gabriela Cruz [Github account](https://github.com/ViriCruz) [https://github.com/ViriCruz](https://github.com/ViriCruz)
 * Carlos Del Real [Github account](https://github.com/carloshdelreal) [https://github.com/carloshdelreal](https://github.com/carloshdelreal) 
 
 # The Website
