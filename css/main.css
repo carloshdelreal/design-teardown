@@ -77,16 +77,14 @@ header{
     margin: 0 0 -4px;
 }
 
-/* .nav-item .content{
-    width: 193.83px;
-    height: 145.27px;
-    background: #555;
-} */
+.nav-item{
+    display: grid;
+}
 .nav-item h3{
     font-size: 27px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding: 60px 0 0px 0;
+    place-self: center;
     font-weight: 600;
 }
 .nav-item p{
