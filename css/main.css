@@ -62,35 +62,19 @@ header{
     padding: 22px 0;
 }
 .nav-header{
-    margin: auto;
-    padding: 0 2em;
+    width: 100%;
     display: flex;
+    justify-content: center;
 }
 
-.nav-header>div:first-child{
-    background-color: #888;
-    width: 226.88px;
-    height: 82.5px;
-    margin-top: 33px;
-    /* margin: 50px 15px 50px 0; */
-    
-}
+
 
 .nav-header .nav-item{
     background-color: #555;
-    width: 220.2px;
+    width: 16.666%;
     height: 171.64px;
     padding: 13.2px;
     margin: 0 0 -4px;
-}
-
-.nav-header>div:last-child{
-    background-color: #888;
-    display:block;
-    width: 133.75px;
-    height: 53.5px;
-    margin: 43.3px 0 0;
-    padding: 11.76px 10.7px 11.76px 14.98px;
 }
 
 /* .nav-item .content{
